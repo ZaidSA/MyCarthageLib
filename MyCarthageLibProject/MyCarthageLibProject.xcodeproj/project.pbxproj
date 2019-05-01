@@ -15,6 +15,7 @@
 		15039A0122795C2D0050B501 /* MyCarthageLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 150399FF22795C2D0050B501 /* MyCarthageLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15039A0422795C2D0050B501 /* MyCarthageLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150399FD22795C2C0050B501 /* MyCarthageLib.framework */; };
 		15039A0522795C2D0050B501 /* MyCarthageLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150399FD22795C2C0050B501 /* MyCarthageLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15039A0B22795CEF0050B501 /* MyCarthageLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15039A0A22795CEF0050B501 /* MyCarthageLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		150399FD22795C2C0050B501 /* MyCarthageLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCarthageLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		150399FF22795C2D0050B501 /* MyCarthageLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthageLib.h; sourceTree = "<group>"; };
 		15039A0022795C2D0050B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15039A0A22795CEF0050B501 /* MyCarthageLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarthageLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				150399FF22795C2D0050B501 /* MyCarthageLib.h */,
+				15039A0A22795CEF0050B501 /* MyCarthageLib.swift */,
 				15039A0022795C2D0050B501 /* Info.plist */,
 			);
 			path = MyCarthageLib;
@@ -179,6 +182,7 @@
 					};
 					150399FC22795C2C0050B501 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -235,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15039A0B22795CEF0050B501 /* MyCarthageLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +392,7 @@
 		150399F622795C120050B501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCarthageLibProject/Info.plist;
@@ -404,6 +410,7 @@
 		150399F722795C120050B501 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyCarthageLibProject/Info.plist;
@@ -421,6 +428,7 @@
 		15039A0722795C2D0050B501 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -438,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zaidpathan.MyCarthageLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -448,6 +457,7 @@
 		15039A0822795C2D0050B501 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
