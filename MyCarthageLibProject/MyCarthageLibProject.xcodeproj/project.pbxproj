@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150399E722795C110050B501 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150399E622795C110050B501 /* AppDelegate.swift */; };
+		150399E922795C110050B501 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150399E822795C110050B501 /* ViewController.swift */; };
+		150399EC22795C110050B501 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150399EA22795C110050B501 /* Main.storyboard */; };
+		150399EE22795C120050B501 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150399ED22795C120050B501 /* Assets.xcassets */; };
+		150399F122795C120050B501 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150399EF22795C120050B501 /* LaunchScreen.storyboard */; };
+		15039A0122795C2D0050B501 /* MyCarthageLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 150399FF22795C2D0050B501 /* MyCarthageLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15039A0422795C2D0050B501 /* MyCarthageLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150399FD22795C2C0050B501 /* MyCarthageLib.framework */; };
+		15039A0522795C2D0050B501 /* MyCarthageLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 150399FD22795C2C0050B501 /* MyCarthageLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15039A0222795C2D0050B501 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150399DB22795C110050B501 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150399FC22795C2C0050B501;
+			remoteInfo = MyCarthageLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15039A0922795C2D0050B501 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				15039A0522795C2D0050B501 /* MyCarthageLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		150399E322795C110050B501 /* MyCarthageLibProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCarthageLibProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150399E622795C110050B501 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150399E822795C110050B501 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		150399EB22795C110050B501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150399ED22795C120050B501 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150399F022795C120050B501 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150399F222795C120050B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150399FD22795C2C0050B501 /* MyCarthageLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCarthageLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		150399FF22795C2D0050B501 /* MyCarthageLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthageLib.h; sourceTree = "<group>"; };
+		15039A0022795C2D0050B501 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150399E022795C110050B501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15039A0422795C2D0050B501 /* MyCarthageLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150399FA22795C2C0050B501 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150399DA22795C110050B501 = {
+			isa = PBXGroup;
+			children = (
+				150399E522795C110050B501 /* MyCarthageLibProject */,
+				150399FE22795C2D0050B501 /* MyCarthageLib */,
+				150399E422795C110050B501 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150399E422795C110050B501 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150399E322795C110050B501 /* MyCarthageLibProject.app */,
+				150399FD22795C2C0050B501 /* MyCarthageLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150399E522795C110050B501 /* MyCarthageLibProject */ = {
+			isa = PBXGroup;
+			children = (
+				150399E622795C110050B501 /* AppDelegate.swift */,
+				150399E822795C110050B501 /* ViewController.swift */,
+				150399EA22795C110050B501 /* Main.storyboard */,
+				150399ED22795C120050B501 /* Assets.xcassets */,
+				150399EF22795C120050B501 /* LaunchScreen.storyboard */,
+				150399F222795C120050B501 /* Info.plist */,
+			);
+			path = MyCarthageLibProject;
+			sourceTree = "<group>";
+		};
+		150399FE22795C2D0050B501 /* MyCarthageLib */ = {
+			isa = PBXGroup;
+			children = (
+				150399FF22795C2D0050B501 /* MyCarthageLib.h */,
+				15039A0022795C2D0050B501 /* Info.plist */,
+			);
+			path = MyCarthageLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		150399F822795C2C0050B501 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15039A0122795C2D0050B501 /* MyCarthageLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		150399E222795C110050B501 /* MyCarthageLibProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150399F522795C120050B501 /* Build configuration list for PBXNativeTarget "MyCarthageLibProject" */;
+			buildPhases = (
+				150399DF22795C110050B501 /* Sources */,
+				150399E022795C110050B501 /* Frameworks */,
+				150399E122795C110050B501 /* Resources */,
+				15039A0922795C2D0050B501 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15039A0322795C2D0050B501 /* PBXTargetDependency */,
+			);
+			name = MyCarthageLibProject;
+			productName = MyCarthageLibProject;
+			productReference = 150399E322795C110050B501 /* MyCarthageLibProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150399FC22795C2C0050B501 /* MyCarthageLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15039A0622795C2D0050B501 /* Build configuration list for PBXNativeTarget "MyCarthageLib" */;
+			buildPhases = (
+				150399F822795C2C0050B501 /* Headers */,
+				150399F922795C2C0050B501 /* Sources */,
+				150399FA22795C2C0050B501 /* Frameworks */,
+				150399FB22795C2C0050B501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCarthageLib;
+			productName = MyCarthageLib;
+			productReference = 150399FD22795C2C0050B501 /* MyCarthageLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150399DB22795C110050B501 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zaid Pathan";
+				TargetAttributes = {
+					150399E222795C110050B501 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					150399FC22795C2C0050B501 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 150399DE22795C110050B501 /* Build configuration list for PBXProject "MyCarthageLibProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150399DA22795C110050B501;
+			productRefGroup = 150399E422795C110050B501 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150399E222795C110050B501 /* MyCarthageLibProject */,
+				150399FC22795C2C0050B501 /* MyCarthageLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150399E122795C110050B501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150399F122795C120050B501 /* LaunchScreen.storyboard in Resources */,
+				150399EE22795C120050B501 /* Assets.xcassets in Resources */,
+				150399EC22795C110050B501 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150399FB22795C2C0050B501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150399DF22795C110050B501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150399E922795C110050B501 /* ViewController.swift in Sources */,
+				150399E722795C110050B501 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150399F922795C2C0050B501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15039A0322795C2D0050B501 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150399FC22795C2C0050B501 /* MyCarthageLib */;
+			targetProxy = 15039A0222795C2D0050B501 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150399EA22795C110050B501 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150399EB22795C110050B501 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150399EF22795C120050B501 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150399F022795C120050B501 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150399F322795C120050B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150399F422795C120050B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150399F622795C120050B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCarthageLibProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaidpathan.MyCarthageLibProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150399F722795C120050B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyCarthageLibProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaidpathan.MyCarthageLibProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15039A0722795C2D0050B501 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCarthageLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaidpathan.MyCarthageLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		15039A0822795C2D0050B501 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyCarthageLib/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zaidpathan.MyCarthageLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150399DE22795C110050B501 /* Build configuration list for PBXProject "MyCarthageLibProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150399F322795C120050B501 /* Debug */,
+				150399F422795C120050B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150399F522795C120050B501 /* Build configuration list for PBXNativeTarget "MyCarthageLibProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150399F622795C120050B501 /* Debug */,
+				150399F722795C120050B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15039A0622795C2D0050B501 /* Build configuration list for PBXNativeTarget "MyCarthageLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15039A0722795C2D0050B501 /* Debug */,
+				15039A0822795C2D0050B501 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150399DB22795C110050B501 /* Project object */;
+}
